@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<video id="my-video" width="800" controls>
+  <source src="localVideo.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+
+<script type="text/javascript">
+  document.getElementById("my-video").defaultPlaybackRate = 1.5;
+  document.getElementById("my-video").play();
+  document.getElementById("my-video").playbackRate = 2.0;
+
+function speed(x){
+        var myVid=document.getElementById("my-video");
+	myVid.playbackRate=x;
+}
+</script>
+
+<br />
+<a href="javascript:speed(0.5)">.5x</a>
+<a href="javascript:speed(1.0)">1x</a>
+<a href="javascript:speed(1.2)">1.2x</a>
+<a href="javascript:speed(1.5)">1.5x</a>
+<a href="javascript:speed(1.7)">1.7x</a>
+<a href="javascript:speed(2.0)">2.0x</a>
+<a href="javascript:speed(2.3)">2.3x</a>
+<a href="javascript:speed(2.5)">2.5x</a>
+<a href="javascript:speed(2.7)">2.7x</a>
+<a href="javascript:speed(3.0)">3.0x</a>
+
+</body>
+</html>
+
