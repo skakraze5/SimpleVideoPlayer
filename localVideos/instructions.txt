@@ -1,1 +1,1 @@
-Add videos to this directory
+Add videos to this directory. If you name it "video.mp4" than the player will just work. Else you will need to update the index.html with your file name.
